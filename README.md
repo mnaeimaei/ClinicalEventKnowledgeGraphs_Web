@@ -79,7 +79,118 @@ This tab consists of our event log, which can be either a single-entity or multi
 - **Entity2_origin** and **Entity2_ID:** Contain the origin and ID of each instance of the second entity. For example, the second entity instances could be “Admission11,” “Admission12,” etc.
 
 
-## Project
+## EntitiesAttributes
+
+This Excel tab contains the attributes of our entities. Each entity can have several attributes, which can either be used as entities themselves or only as attributes.
+
+For example, age, gender, and admission are attributes of the Patient entity, as each patient has an age, gender, and admission sequence. Additionally, multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity are attributes of the Admission entity. Similarly, each disorder is an attribute of multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity.
+
+- **Origin:** This column shows the type of attribute.
+- **ID:** This column shows the ID of the attribute.
+- **Name:** This column contains a mix of synonyms for origins and IDs.
+- **Value:** This column contains the value of the attribute, if it exists.
+- **Category:** This column has the value "absolute" for all attributes that are only used for data analysis.
+
+## EntitiesAttributeRel
+
+This Excel sheet shows the relationship between entities and their attributes.
+
+- **Origin1:** This column contains the origin of the first entity or entity attribute.
+- **ID1:** This column contains the ID of the first entity or entity attribute.
+- **Origin2:** This column contains the origin of the second entity or entity attribute.
+- **ID2:** This column contains the ID of the second entity or entity attribute.
+
+## ActivityAttributes
+
+This sheet of the dataset shows the activity attributes.
+
+- **Activity_Attributes_ID:** This column contains a foreign key that relates to the event log sheet.
+- **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
+- **Activity_Synonym:** This column shows the synonym for the activity, with a corresponding column of the same name in the event log sheet.
+- **Attribute:** This column contains the attributes.
+- **Attribute_Value:** This column contains the values of the attributes.
+
+## ActivitiesDomain
+
+This sheet contains the domain of activities, which consists of only one column.
+
+## ICD
+
+This sheet of our dataset contains an excerpt of our ICD codes.
+
+- **ICD_Origin:** This column contains values for all ICD entries. It is an auxiliary column used solely for data analysis.
+- **ICD_Code:** This column shows the ICD codes.
+- **ICD_Version:** This column shows the version of the ICD codes.
+- **ICD_Code_Title:** This column shows the titles of the ICD codes.
+
+## SCT_Node
+
+This sheet of our dataset contains an excerpt of our SNOMED CT concept codes.
+
+- **SCT_ID:** This column contains the SNOMED CT ID.
+- **SCT_Code:** This column is an auxiliary column used in this sheet, not related to SNOMED CT terminology.
+- **SCT_DescriptionA_Type1:** This column shows the description of SNOMED CT IDs with their semantic tag in parentheses.
+- **SCT_DescriptionA_Type2:** This column shows the description of SNOMED CT IDs without their semantic tag in parentheses.
+- **SCT_DescriptionB:** This column shows another description of SNOMED CT IDs, which exists only for some of them.
+- **SCT_Semantic_Tags:** This column contains the semantic tags of SNOMED CT IDs.
+- **SCT_Type:** This column contains the type of SNOMED CT, used to categorize SNOMED CT into three categories: root (only one ID, 138875005), top-level concept (we have 18 SNOMED CTs), and concept (all other IDs besides root and top-level concepts).
+- **SCT_Level:** This is an index we used that shows the distance of a SNOMED CT ID from the root SNOMED CT ID (138875005). Sometimes, there are different paths to navigate from a SNOMED CT ID to the root SNOMED CT ID, so it may have more than one level. This index facilitates and enhances the speed of queries.
+
+## SCT_REL
+
+This sheet shows the relationships between SNOMED CT concepts.
+
+- **SCT_ID_1:** The ID of the first SNOMED CT concept node.
+- **SCT_Code_1:** The code of the first SNOMED CT concept node.
+- **SCT_ID_2:** The ID of the second SNOMED CT concept node.
+- **SCT_Code_2:** The code of the second SNOMED CT concept node.
+
+## DK3
+
+This sheet shows the constrained node mappings derived from the MIMIC-IV dataset, which relate each Disorder_ID (an attribute of multimorbidity) to each ICD code.
+
+- **Disorder_ID:** This column shows the disorder attribute identifier.
+- **ICD_Code:** This column contains the ICD code.
+
+## DK4
+
+This sheet shows the constrained node mappings derived from "OHDSI Athena" for relating ICD codes to SNOMED CT.
+
+- **ICD_Code:** This column contains the ICD codes.
+- **SCT_ID:** This column contains the SNOMED CT IDs.
+
+## DK5
+
+This sheet shows the constrained node mappings derived manually by searching to relate activities to SNOMED CT concepts.
+
+- **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
+- **Activity_Synonym:** This column shows the synonym for the activity, with a corresponding column of the same name in the event log sheet.
+- **SCT_ID:** This column contains the SNOMED CT IDs.
+- **SCT_Code:** This column contains the SNOMED CT codes.
+
+## DK6_1
+
+This sheet shows the constrained node mappings derived manually by searching to relate activities to domains.
+
+- **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
+- **Activity_Synonym:** This column shows the synonym for the activity, with a corresponding column of the same name in the event log sheet.
+- **Activity_Domain:** This column shows the domain of activities.
+
+## DK6_2
+
+This sheet shows the constrained node mappings derived manually by searching to relate the domain of activities to SNOMED CT concepts.
+
+- **Activity_Domain:** This column shows the domain of activities.
+- **SCT_ID:** This column contains the SNOMED CT IDs.
+- **SCT_Code:** This column contains the SNOMED CT codes.
+
+## DK7
+
+This sheet shows the constrained node mappings derived from training a supervised machine learning model to relate activity instance identifiers to disorder identifiers. By using this sheet, we can include another entity (disorder) in addition to the Patient and Admission entities in our analysis.
+
+- **Activity_Instance_ID:** This column contains the activity instance identifiers. This foreign key can be related to the event log sheet.
+- **Disorders_ID:** This column contains the identifiers of disorder attributes.
+
 
 ## Project
 
