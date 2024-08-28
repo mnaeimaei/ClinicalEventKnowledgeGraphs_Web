@@ -192,10 +192,170 @@ This sheet shows the constrained node mappings derived from training a supervise
 - **Disorders_ID:** This column contains the identifiers of disorder attributes.
 
 
-## Project
+# 7-Neo4j Aura credentials
+On this page, you are asked to enter your Neo4j Aura credentials. By inputting your Neo4j Aura credentials, we do not gain access to your Neo4j account; we simply send a query to it. Additionally, the reason we don’t provide a test account is that you wouldn’t be able to view the results in Neo4j Aura.
+
+## Setting Up the Required Tools
+
+Follow these steps to set up the tools required for this application:
+
+1. Visit [Neo4j Aura](https://neo4j.com/cloud/platform/aura-graph-database/).
+2. Click on **"Start Free."**
+3. Sign up or log in.
+4. Click on **"New Instance"** and select **"Try for Free."**
+5. Save your username and password for future use.
+6. Download and continue with the setup process.
+7. Save the Connection URI for future use.
 
 
-## Project
+# 8-Selection the Excel Sheet
+On this page, based on our selections for the care pathways option, we are asked to determine which sheet of our Excel file corresponds to which concepts. Additionally, a preview of our test Excel sheet is displayed on the page.
+
+For the Test Dataset that was explained, the sheet sections are structured as follows:
+
+- **Event Log:** `C_EventLog`
+- **Entities Attributes:** `D_EntitiesAttributes`
+- **The Relationship between Entries and their Attributes:** `D_EntitiesAttributeRel`
+- **Activities Attributes:** `E_ActivityAttributes`
+- **Activities Domain:** `F_ActivitiesDomain`
+- **ICD:** `H_ICD`
+- **SNOMED CT NODE:** `I_SCT_Node`
+- **SNOMED CT Relationship:** `I_SCT_REL`
+- **The Relationship between Disorder and ICD Code:** `L_DK3`
+- **The Relationship between ICD Code and SNOMED CT ID:** `M_DK4`
+- **The Relationship between Event Activities and SNOMED CT ID:** `N_DK5`
+- **The Relationship between Event Activities and Activities Domain:** `O_DK6_1`
+- **The Relationship between Activities Domain and SNOMED CT ID:** `O_DK6_2`
+- **The Relationship between Events and Disorders:** `P_DK7`
+
+On the subsequent pages, you will also be asked to select which columns of each sheet are related to specific concepts.
+
+## Event Log Sheet Column Selection
+
+On this page, you are first asked to select how many entities you have in your event log and then to select the columns related to each concept.
+
+- **Number of Entities column:** 2
+- **Event ID column:** `Event_ID`
+- **Timestamp column:** `Timestamp`
+- **Activity column:** `Activity`
+- **Activity Synonym column:** `Activity_Synonym`
+- **Activity Attributes ID column:** `Activity_Attributes_ID`
+- **Activity Instance ID column:** `Activity_Instance_ID`
+- **Entity 1 Origin column:** `Entity1_Origin`
+- **Entity 1 ID column:** `Entity1_ID`
+- **Entity 2 Origin column:** `Entity2_Origin`
+- **Entity 2 ID column:** `Entity2_ID`
+
+## Entities Attributes Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Entities Attributes Origin Column:** `Origin`
+- **Entities Attributes ID Column:** `ID`
+- **Entities Attributes Name Column:** `Name`
+- **Entities Attributes Value Column:** `Value`
+- **Entities Attributes Category Column:** `Category`
+
+## Entities Attributes Relationship Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **The First Entity Origin or the First Entity's Attribute Origin:** `Origin1`
+- **The First Entity ID or the First Entity's Attribute ID:** `ID1`
+- **The Second Entity Origin or the Second Entity's Attribute Origin:** `Origin2`
+- **The Second Entity ID or the Second Entity's Attribute ID:** `ID2`
+
+## Activities Attributes Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity Attributes ID:** `Activity_Attributes_ID`
+- **Activity:** `Activity`
+- **Activity Synonym:** `Activity_Synonym`
+- **Activity Attributes:** `Attribute`
+- **Activity Attributes Value:** `Activity_Attributes_ID`
+
+## Activities Domain Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity Domains:** `Activity_Domain`
+
+## ICD Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **ICD Code Origin:** `icd_Origin`
+- **ICD Code:** `icd_code`
+- **ICD Code Version:** `icd_version`
+- **ICD Code Title:** `icd_code_title`
+
+## SNOMED CT NODE Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
+- **SNOMED CT Description A:** `SCT_DescriptionA_Type2`
+- **SNOMED CT Description B:** `SCT_DescriptionB`
+- **SNOMED CT Semantic Tags:** `SCT_Semantic_Tags`
+- **SNOMED CT Concept Type:** `SCT_Type`
+- **SNOMED CT Level:** `SCT_Level`
+
+## SNOMED CT Relationship Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **First SNOMED CT ID:** `sct_id_1`
+- **First SNOMED CT Code:** `sct_code_1`
+- **Second SNOMED CT ID:** `sct_id_2`
+- **Second SNOMED CT Code:** `sct_code_2`
+
+## The Relationship between Disorder and ICD Code Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Disorder ID:** `Disorders_ID`
+- **ICD Code:** `icd_code`
+
+## The Relationship between ICD Code and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **ICD Code:** `icd_code`
+- **SNOMED CT ID:** `SCT_ID`
+
+## The Relationship between Event Activities and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity:** `Activity`
+- **Activity Synonym:** `Activity_Synonym`
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
+
+## The Relationship between Event Activities and Activities Domain Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity:** `Activity`
+- **Activity Synonym:** `Activity_Synonym`
+- **Activity Domain:** `Activity`
+
+## The Relationship between Activities Domain and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity Domain:** `Activity_Domain`
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
+
+## The Relationship between Events and Disorders Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+- **Activity Instance ID:** `Activity_Instance_ID`
+- **Disorder Entity ID:** `Disorders_ID`
 
 
 ## Project
