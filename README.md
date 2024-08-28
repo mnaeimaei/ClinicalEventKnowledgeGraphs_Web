@@ -368,7 +368,9 @@ For building the clinical event knowledge graph, different steps—one for each 
 ## Creating a Labeled Property Graph for the Event Log
 
 By clicking the “Run” button, the Event Log sheet is converted into an Event Log graph.
+
 <img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database
@@ -389,6 +391,7 @@ The queries executed step by step are as follows:
 By clicking the “Run” button, a node will be created for each row in the Entities Attributes sheet of the Excel file:
 
 <img src="./README_resources/CEKG_02.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except for the Previously Created Ones
@@ -399,7 +402,9 @@ The queries executed step by step are as follows:
 ## Creating Relationships Between Entities and Entities Attributes
 
 By clicking the “Run” button, the Entities Attributes graph is created by establishing relationships between the entities attributes nodes, using the data from the Entities Attributes sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_03.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the database except for the previously created ones
@@ -418,7 +423,9 @@ The queries executed step by step are as follows:
 ## Creating a Labeled Property Graph for Activity Attributes
 
 By clicking the “Run” button, activity attributes are added to the Event Log graph. These activity attributes are sourced from the Activities Attributes sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_04.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the database except for the previously created ones
@@ -430,7 +437,9 @@ The queries executed step by step are as follows:
 ## Creating a Labeled Property Graph for Activities Domains
 
 By clicking the “Run” button, a node is created for each row in the Activity Domain sheet of the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_05.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -441,7 +450,9 @@ The queries executed step by step are as follows:
 ## Creating a Labeled Property Graph for ICD Codes
 
 By clicking the “Run” button, a node is created for each row in the ICD sheet of the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -452,7 +463,9 @@ The queries executed step by step are as follows:
 ## Creating Nodes for SNOMED-CT Concepts
 
 By clicking the “Run” button, a node is created for each row in the SNOMED CT Node sheet of the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_07.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -463,7 +476,9 @@ The queries executed step by step are as follows:
 ## Creating Relationships Between Nodes of SNOMED-CT Concepts
 
 By clicking the “Run” button, the SNOMED-CT graph is created by establishing relationships between the SNOMED CT nodes, using the data from the SNOMED CT Relationship sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_08.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -473,7 +488,9 @@ The queries executed step by step are as follows:
 ## Connecting Diagnosed Disorders to ICD Codes
 
 By clicking the “Run” button, the Disorder nodes in the Entities Attributes graph are connected to the ICD nodes using the data from the DK3 sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_11.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -482,7 +499,9 @@ The queries executed step by step are as follows:
 ## Connecting ICD Codes to SNOMED-CT ID
 
 By clicking the “Run” button, the ICD Code graph is connected to the SNOMED-CT nodes using the data from the DK4 sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_12.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -491,7 +510,9 @@ The queries executed step by step are as follows:
 ## Connecting Activities to SNOMED-CT Codes
 
 By clicking the “Run” button, the Activities nodes in the Event Log graph are connected to the SNOMED-CT nodes using the data from the DK5 sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_13.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -501,7 +522,9 @@ The queries executed step by step are as follows:
 ## Connecting Activities to Domains and Connecting Domains to SNOMED-CT Codes
 
 By clicking the “Run” button, the Activity Domains in the Event Log graph are connected to the SNOMED CT nodes using the data from the DK6_1 and DK6_2 sheets in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_14.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -512,7 +535,9 @@ The queries executed step by step are as follows:
 ## Connecting Events to Disorders and Defining Diagnosed Disorders as New Entities
 
 By clicking the “Run” button, the Event nodes in the Event Log graph are connected to the Disorder nodes in the Entities Attributes graph using the data from the DK7 sheet in the Excel file.
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/CEKG_15.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -527,7 +552,9 @@ By clicking the “Run” button, the clinical event knowledge graph will be ful
 - **If we select option 4:** The DF relationship is created between activity nodes separately for each entity while considering the entity_ID (e.g., for Patient 1, activity a1 directly follows a2 thirty times; for Patient 2, twenty times).
 - **If we select option 5:** The DF relationship is created between activity nodes for one entity’s different IDs with respect to another entity’s non-reified IDs (e.g., for Patient 1, activity a1 directly follows a2 twenty-six times for Disorder 1).
 - **If we select option 6:** The DF relationship is created between the entities (e.g., between patients, admissions, and disorders).
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+- 
+<img src="./README_resources/CEKG_16.jpeg" alt="Alt text" width="600" height="600"/>
+
 The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
@@ -557,6 +584,6 @@ The queries executed step by step are as follows:
 
 Finally, by querying the Clinical Event Knowledge Graph, the care pathways are discovered.
 
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/CEKG_17.jpeg" alt="Alt text" width="600" height="600"/>
 
 
