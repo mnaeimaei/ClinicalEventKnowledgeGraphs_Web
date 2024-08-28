@@ -20,36 +20,75 @@ The username and password for the demo program committee are in the Appendix of 
 # 4-The Profile Page
 On the next page, you can see the directory and output of the files you have created using the app. These files will be shown if you have previously used the app. Whether it's your first time using the app or you've used it before, you can click on "START CEKG" to begin building a new CEKG with the app.
 
+<img src="./README_resources/03_profile.png" alt="Alt text" width="600" height="600"/>
 
 # 5-The Care pathways options
 On the next page, you need to select the type of care pathway you want to create.
+<img src="./README_resources/04_care.png" alt="Alt text" width="600" height="600"/>
 
 
 ## Step1) Select the type of care pathway you want to create.
+<img src="./README_resources/04_step1.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step1_chart.jpg" alt="Alt text" width="600" height="600"/>
+
+
 
 
 ## Step2) Other Configuration of the care pathways
 
 ### If you select the first or second option from Step 1, you will have 8 options to choose from regarding the details about activities you want to include in the care pathways.
+<img src="./README_resources/04_step2a.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="600" height="600"/>
+
+
+
 ### If you select the third, fourth, or fifth option from Step 1, you will have 12 options to choose from regarding the details about activities you want to include in the care pathways.
+<img src="./README_resources/04_step2b.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step2_char2.jpg" alt="Alt text" width="600" height="600"/>
+
+
 
 ### If you select the sixth option from Step 1, you will have 2 options to decide whether you prefer to show only one of the following: Admission Disorders, Admission Treated Disorders, Admission Not Treated Disorders, or Admission New Disorders, or to display all of them together.
+<img src="./README_resources/04_step2c.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step2_char3.jpg" alt="Alt text" width="600" height="600"/>
+
+
 
 ## Step3) Entities Configuration
 
 ### If you select the first, second, third, fourth, or fifth option from Step 1, you will have 9 options to choose from for the entities to be included in the care pathways.
+<img src="./README_resources/04_step3a.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step3_char1.jpg" alt="Alt text" width="600" height="600"/>
+
+
 
 ### If you select the sixth option from Step 1, you will have 1 option for selecting the entities to be included in the care pathways.
+
+<img src="./README_resources/04_step3b.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step3_char2.jpg" alt="Alt text" width="600" height="600"/>
+
 
 
 ## Step4) Activity Label
 
 
 ### If you select the first, second, third, fourth, or fifth option from Step 1, you will have 3 options for the activity labels to be included in the care pathways
+<img src="./README_resources/04_step4a.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step4_char.jpg" alt="Alt text" width="600" height="600"/>
+
+
 
 ### If you select the sixth option from Step 1, you will have 1 option for the activity label to be included in the care pathway.
 
+<img src="./README_resources/04_step4b.png" alt="Alt text" width="600" height="600"/>
+
+
 # 6-Uploading the Dataset
+
+<img src="./README_resources/06_step6.png" alt="Alt text" width="600" height="600"/>
+
+
+
 
 Download the Test Dataset
 The test dataset is provided as an Excel file (.xlsx). You can download it from this link: [DataSet](https://cekg-db1cc0d27386.herokuapp.com/](https://docs.google.com/spreadsheets/d/18PDQisLKwPPh6Gl7v5bCzYzUsiKmIGs_WYOzksPh5eM/edit?usp=sharing )
@@ -62,6 +101,9 @@ Here, we will discuss what each tab in the workbook represents.
 ## Event Log Tab
 
 This tab consists of our event log, which can be either a single-entity or multi-entity event log. Entities represent distinct existences. Sometimes, the terms “case notion,” “case,” “object,” and “dimensional” are used interchangeably. The term "multi-entity event log" is sometimes considered equivalent to “object-centric event log” or “multi-dimensional event log.” In the multi-entity event log definition, each entity is defined with its origin and IDs. The tab contains several columns:
+
+<img src="./README_resources/06_step61.png" alt="Alt text" width="600" height="600"/>
+
 
 - **Event_ID:** Contains the ID of each event.
 - **Timestamp:** Contains the time and date of activities.
@@ -90,6 +132,10 @@ This Excel tab contains the attributes of our entities. Each entity can have sev
 
 For example, age, gender, and admission are attributes of the Patient entity, as each patient has an age, gender, and admission sequence. Additionally, multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity are attributes of the Admission entity. Similarly, each disorder is an attribute of multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity.
 
+<img src="./README_resources/06_step62.png" alt="Alt text" width="600" height="600"/>
+
+
+
 - **Origin:** This column shows the type of attribute.
 - **ID:** This column shows the ID of the attribute.
 - **Name:** This column contains a mix of synonyms for origins and IDs.
@@ -100,6 +146,10 @@ For example, age, gender, and admission are attributes of the Patient entity, as
 
 This Excel sheet shows the relationship between entities and their attributes.
 
+<img src="./README_resources/06_step63.png" alt="Alt text" width="600" height="600"/>
+
+
+
 - **Origin1:** This column contains the origin of the first entity or entity attribute.
 - **ID1:** This column contains the ID of the first entity or entity attribute.
 - **Origin2:** This column contains the origin of the second entity or entity attribute.
@@ -108,6 +158,9 @@ This Excel sheet shows the relationship between entities and their attributes.
 ## ActivityAttributes
 
 This sheet of the dataset shows the activity attributes.
+<img src="./README_resources/06_step64.png" alt="Alt text" width="600" height="600"/>
+
+
 
 - **Activity_Attributes_ID:** This column contains a foreign key that relates to the event log sheet.
 - **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
@@ -119,9 +172,13 @@ This sheet of the dataset shows the activity attributes.
 
 This sheet contains the domain of activities, which consists of only one column.
 
+<img src="./README_resources/06_step65.png" alt="Alt text" width="600" height="600"/>
+
 ## ICD
 
 This sheet of our dataset contains an excerpt of our ICD codes.
+
+<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="600"/>
 
 - **ICD_Origin:** This column contains values for all ICD entries. It is an auxiliary column used solely for data analysis.
 - **ICD_Code:** This column shows the ICD codes.
@@ -131,6 +188,8 @@ This sheet of our dataset contains an excerpt of our ICD codes.
 ## SCT_Node
 
 This sheet of our dataset contains an excerpt of our SNOMED CT concept codes.
+
+<img src="./README_resources/06_step67.png" alt="Alt text" width="600" height="600"/>
 
 - **SCT_ID:** This column contains the SNOMED CT ID.
 - **SCT_Code:** This column is an auxiliary column used in this sheet, not related to SNOMED CT terminology.
@@ -145,12 +204,16 @@ This sheet of our dataset contains an excerpt of our SNOMED CT concept codes.
 
 This sheet shows the relationships between SNOMED CT concepts.
 
+<img src="./README_resources/06_step68.png" alt="Alt text" width="600" height="600"/>
+
 - **SCT_ID_1:** The ID of the first SNOMED CT concept node.
 - **SCT_Code_1:** The code of the first SNOMED CT concept node.
 - **SCT_ID_2:** The ID of the second SNOMED CT concept node.
 - **SCT_Code_2:** The code of the second SNOMED CT concept node.
 
 ## DK3
+
+<img src="./README_resources/06_step69.png" alt="Alt text" width="600" height="600"/>
 
 This sheet shows the constrained node mappings derived from the MIMIC-IV dataset, which relate each Disorder_ID (an attribute of multimorbidity) to each ICD code.
 
@@ -160,6 +223,8 @@ This sheet shows the constrained node mappings derived from the MIMIC-IV dataset
 ## DK4
 
 This sheet shows the constrained node mappings derived from "OHDSI Athena" for relating ICD codes to SNOMED CT.
+<img src="./README_resources/06_step70.png" alt="Alt text" width="600" height="600"/>
+
 
 - **ICD_Code:** This column contains the ICD codes.
 - **SCT_ID:** This column contains the SNOMED CT IDs.
@@ -167,6 +232,9 @@ This sheet shows the constrained node mappings derived from "OHDSI Athena" for r
 ## DK5
 
 This sheet shows the constrained node mappings derived manually by searching to relate activities to SNOMED CT concepts.
+
+<img src="./README_resources/06_step71.png" alt="Alt text" width="600" height="600"/>
+
 
 - **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
 - **Activity_Synonym:** This column shows the synonym for the activity, with a corresponding column of the same name in the event log sheet.
@@ -177,6 +245,9 @@ This sheet shows the constrained node mappings derived manually by searching to 
 
 This sheet shows the constrained node mappings derived manually by searching to relate activities to domains.
 
+<img src="./README_resources/06_step72.png" alt="Alt text" width="600" height="600"/>
+
+
 - **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
 - **Activity_Synonym:** This column shows the synonym for the activity, with a corresponding column of the same name in the event log sheet.
 - **Activity_Domain:** This column shows the domain of activities.
@@ -184,6 +255,9 @@ This sheet shows the constrained node mappings derived manually by searching to 
 ## DK6_2
 
 This sheet shows the constrained node mappings derived manually by searching to relate the domain of activities to SNOMED CT concepts.
+
+<img src="./README_resources/06_step73.png" alt="Alt text" width="600" height="600"/>
+
 
 - **Activity_Domain:** This column shows the domain of activities.
 - **SCT_ID:** This column contains the SNOMED CT IDs.
@@ -193,14 +267,19 @@ This sheet shows the constrained node mappings derived manually by searching to 
 
 This sheet shows the constrained node mappings derived from training a supervised machine learning model to relate activity instance identifiers to disorder identifiers. By using this sheet, we can include another entity (disorder) in addition to the Patient and Admission entities in our analysis.
 
+<img src="./README_resources/06_step74.png" alt="Alt text" width="600" height="600"/>
+
+
+
 - **Activity_Instance_ID:** This column contains the activity instance identifiers. This foreign key can be related to the event log sheet.
 - **Disorders_ID:** This column contains the identifiers of disorder attributes.
 
 
 # 7-Neo4j Aura credentials
 On this page, you are asked to enter your Neo4j Aura credentials. By inputting your Neo4j Aura credentials, we do not gain access to your Neo4j account; we simply send a query to it. Additionally, the reason we don’t provide a test account is that you wouldn’t be able to view the results in Neo4j Aura.
+<img src="./README_resources/07.png" alt="Alt text" width="600" height="600"/>
 
-## Setting Up the Required Tools
+
 
 Follow these steps to set up the tools required for this application:
 
@@ -215,6 +294,8 @@ Follow these steps to set up the tools required for this application:
 
 # 8-Selection the Excel Sheet
 On this page, based on our selections for the care pathways option, we are asked to determine which sheet of our Excel file corresponds to which concepts. Additionally, a preview of our test Excel sheet is displayed on the page.
+<img src="./README_resources/08.png" alt="Alt text" width="600" height="600"/>
+
 
 For the Test Dataset that was explained, the sheet sections are structured as follows:
 
@@ -238,6 +319,8 @@ On the subsequent pages, you will also be asked to select which columns of each 
 ## Event Log Sheet Column Selection
 
 On this page, you are first asked to select how many entities you have in your event log and then to select the columns related to each concept.
+<img src="./README_resources/08_step1.png" alt="Alt text" width="600" height="600"/>
+
 
 - **Number of Entities column:** 2
 - **Event ID column:** `Event_ID`
@@ -255,6 +338,9 @@ On this page, you are first asked to select how many entities you have in your e
 
 On this page, you are asked to select the columns related to each concept.
 
+<img src="./README_resources/08_step2.png" alt="Alt text" width="600" height="600"/>
+
+
 - **Entities Attributes Origin Column:** `Origin`
 - **Entities Attributes ID Column:** `ID`
 - **Entities Attributes Name Column:** `Name`
@@ -264,6 +350,8 @@ On this page, you are asked to select the columns related to each concept.
 ## Entities Attributes Relationship Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step3.png" alt="Alt text" width="600" height="600"/>
+
 
 - **The First Entity Origin or the First Entity's Attribute Origin:** `Origin1`
 - **The First Entity ID or the First Entity's Attribute ID:** `ID1`
@@ -273,6 +361,7 @@ On this page, you are asked to select the columns related to each concept.
 ## Activities Attributes Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step4.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Attributes ID:** `Activity_Attributes_ID`
 - **Activity:** `Activity`
@@ -283,12 +372,14 @@ On this page, you are asked to select the columns related to each concept.
 ## Activities Domain Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step5.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Domains:** `Activity_Domain`
 
 ## ICD Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step6.png" alt="Alt text" width="600" height="600"/>
 
 - **ICD Code Origin:** `icd_Origin`
 - **ICD Code:** `icd_code`
@@ -298,6 +389,7 @@ On this page, you are asked to select the columns related to each concept.
 ## SNOMED CT NODE Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step7.png" alt="Alt text" width="600" height="600"/>
 
 - **SNOMED CT ID:** `SCT_ID`
 - **SNOMED CT Code:** `SCT_Code`
@@ -310,6 +402,7 @@ On this page, you are asked to select the columns related to each concept.
 ## SNOMED CT Relationship Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step8.png" alt="Alt text" width="600" height="600"/>
 
 - **First SNOMED CT ID:** `sct_id_1`
 - **First SNOMED CT Code:** `sct_code_1`
@@ -319,6 +412,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Disorder and ICD Code Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step9.png" alt="Alt text" width="600" height="600"/>
 
 - **Disorder ID:** `Disorders_ID`
 - **ICD Code:** `icd_code`
@@ -326,6 +420,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between ICD Code and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step10.png" alt="Alt text" width="600" height="600"/>
 
 - **ICD Code:** `icd_code`
 - **SNOMED CT ID:** `SCT_ID`
@@ -333,6 +428,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Event Activities and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step11.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity:** `Activity`
 - **Activity Synonym:** `Activity_Synonym`
@@ -342,6 +438,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Event Activities and Activities Domain Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step12.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity:** `Activity`
 - **Activity Synonym:** `Activity_Synonym`
@@ -350,6 +447,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Activities Domain and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+<img src="./README_resources/08_step13.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Domain:** `Activity_Domain`
 - **SNOMED CT ID:** `SCT_ID`
@@ -358,6 +456,8 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Events and Disorders Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step14.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Instance ID:** `Activity_Instance_ID`
 - **Disorder Entity ID:** `Disorders_ID`
