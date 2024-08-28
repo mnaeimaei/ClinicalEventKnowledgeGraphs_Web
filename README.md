@@ -54,8 +54,30 @@ The test dataset consists of several tabs within the Excel file. These tabs coul
 You can also use your own dataset by considering this Excel file as a template.
 Here, we will discuss what each tab in the workbook represents.
 
+## Event Log Tab
 
-## Project
+This tab consists of our event log, which can be either a single-entity or multi-entity event log. Entities represent distinct existences. Sometimes, the terms “case notion,” “case,” “object,” and “dimensional” are used interchangeably. The term "multi-entity event log" is sometimes considered equivalent to “object-centric event log” or “multi-dimensional event log.” In the multi-entity event log definition, each entity is defined with its origin and IDs. The tab contains several columns:
+
+- **Event_ID:** Contains the ID of each event.
+- **Timestamp:** Contains the time and date of activities.
+- **Activity:** Consists of the activity label of the event.
+- **Activity_Synonym:** Contains abbreviations of activity labels. For example, BGT for Blood Gas Test.
+- **Activity_Attributes_ID:** A unique foreign key ID for each distinct feature and value. For example:
+  - `po2=295 → Activity_Properties_ID=1`
+  - `lactate=3.23 → Activity_Properties_ID=2`
+  - `Blood pressure=137/79 → Activity_Properties_ID=3`
+  - `po2=412 → Activity_Properties_ID=4` (same feature but different value, so a different ID)
+  - `lactate=0.73 → Activity_Properties_ID=5` (same feature but different value, so a different ID)
+  - `po2=295 → Activity_Properties_ID=1` (same feature and same value, so the same ID)
+  - `lactate=3.23 → Activity_Properties_ID=2` (same feature and same value, so the same ID)
+- **Activity_Instance_ID:** A unique foreign key identifier for each distinct activity, considering its features and values. For example:
+  - First event: `Blood Gas Test: po2=295, lactate=3.23 → Activity_Value_ID=1`
+  - Second event: `BP_measurement: Blood pressure=137/79 → Activity_Value_ID=2` (different activity from the first event)
+  - Third event: `Blood Gas Test: po2=412, lactate=0.73 → Activity_Value_ID=3` (same activity as the first event but with different feature values)
+  - Fourth event: `Blood Gas Test: po2=295, lactate=3.23 → Activity_Value_ID=1` (same activity as the first event with the same feature values)
+- **Entity1_origin** and **Entity1_ID:** Contain the origin and ID of each instance of the first entity. For example, the first entity instances could be “Patient1,” “Patient2,” etc.
+- **Entity2_origin** and **Entity2_ID:** Contain the origin and ID of each instance of the second entity. For example, the second entity instances could be “Admission11,” “Admission12,” etc.
+
 
 ## Project
 
