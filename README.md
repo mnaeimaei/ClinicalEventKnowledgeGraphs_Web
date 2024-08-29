@@ -684,3 +684,15 @@ The queries executed step by step are as follows:
 - Queries for Linking the Activity Nodes to the Domain or SNOMED-CT Nodes with a Relationship Named 'TYPE_OF'
 - Queries for Linking the Activity Properties Nodes to the Domain or SNOMED-CT Nodes with a Relationship Named 'TYPE_OF'
 
+
+
+## Connecting Events to Disorders and Defining Diagnosed Disorders as New Entities
+
+By clicking the “Run” button, the Event nodes in the Event Log graph are connected to the Disorder nodes in the Entities Attributes graph using the data from the DK7 sheet in the Excel file.
+
+<img src="./README_resources/CEKG_15.jpeg" alt="Alt text" width="5000" height="900"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Linking the Event Nodes to the SNOMED-CT Nodes with a Relationship Named 'CORR'
