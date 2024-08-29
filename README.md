@@ -41,7 +41,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 ### If you select the first or second option from Step 1, you will have 8 options to choose from regarding the details about activities you want to include in the care pathways.
 
-<img src="./README_resources/04_step2a.png" alt="Alt text" width="500" height="200"/>
+<img src="./README_resources/04_step2a.png" alt="Alt text" width="400" height="200"/>
 
 <img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="900" height="600"/>
 
