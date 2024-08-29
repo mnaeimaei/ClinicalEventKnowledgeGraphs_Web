@@ -309,7 +309,7 @@ Follow these steps to set up the tools required for this application:
 
 # 8-Selection the Excel Sheet
 On this page, based on our selections for the care pathways option, we are asked to determine which sheet of our Excel file corresponds to which concepts. Additionally, a preview of our test Excel sheet is displayed on the page.
-<img src="./README_resources/08.png" alt="Alt text" width="1000" height="1300"/>
+<img src="./README_resources/08.png" alt="Alt text" width="1000" height="900"/>
 
 
 For the Test Dataset that was explained, the sheet sections are structured as follows:
