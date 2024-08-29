@@ -436,3 +436,13 @@ On this page, you are asked to select the columns related to each concept.
 - **SNOMED CT Level:** `SCT_Level`
 
 ## SNOMED CT Relationship Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step8.png" alt="Alt text" width="600" height="600"/>
+
+- **First SNOMED CT ID:** `sct_id_1`
+- **First SNOMED CT Code:** `sct_code_1`
+- **Second SNOMED CT ID:** `sct_id_2`
+- **Second SNOMED CT Code:** `sct_code_2`
+
