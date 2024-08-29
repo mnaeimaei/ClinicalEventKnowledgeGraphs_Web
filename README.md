@@ -43,7 +43,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 <img src="./README_resources/04_step2a.png" alt="Alt text" width="400" height="200"/>
 
-<img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="1100" height="600"/>
+<img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="900" height="800"/>
 
 
 
