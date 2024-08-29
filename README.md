@@ -270,7 +270,7 @@ This sheet shows the constrained node mappings derived manually by searching to 
 
 This sheet shows the constrained node mappings derived manually by searching to relate the domain of activities to SNOMED CT concepts.
 
-<img src="./README_resources/06_step73.png" alt="Alt text" width="600" height="400"/>
+<img src="./README_resources/06_step73.png" alt="Alt text" width="400" height="200"/>
 
 
 - **Activity_Domain:** This column shows the domain of activities.
