@@ -172,7 +172,8 @@ This Excel sheet shows the relationship between entities and their attributes.
 ## ActivityAttributes
 
 This sheet of the dataset shows the activity attributes.
-<img src="./README_resources/06_step64.png" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/06_step64.png" alt="Alt text" width="500" height="600"/>
 
 
 
