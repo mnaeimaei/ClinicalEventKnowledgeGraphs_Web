@@ -696,3 +696,49 @@ The queries executed step by step are as follows:
 
 - Clearing the Database Except the Previously Created Ones
 - Linking the Event Nodes to the SNOMED-CT Nodes with a Relationship Named 'CORR'
+
+
+
+
+## Creating Directly Follows (DF) Relationships and Finalizing the Clinical Event Knowledge Graph
+
+By clicking the “Run” button, the clinical event knowledge graph will be fully built by creating directly follow (DF) relationships between events, activities, and entities. The DF relationships will be established based on the options selected on the care pathway options pages.
+
+- **If we select option 1 or 2:** The DF relationship is created between event nodes.
+- **If we select option 3:** The DF relationship is created between activity nodes separately for each entity, but without considering the entity_ID (e.g., for all patients, activity a1 directly follows a2 fifty times).
+- **If we select option 4:** The DF relationship is created between activity nodes separately for each entity while considering the entity_ID (e.g., for Patient 1, activity a1 directly follows a2 thirty times; for Patient 2, twenty times).
+- **If we select option 5:** The DF relationship is created between activity nodes for one entity’s different IDs with respect to another entity’s non-reified IDs (e.g., for Patient 1, activity a1 directly follows a2 twenty-six times for Disorder 1).
+- **If we select option 6:** The DF relationship is created between the entities (e.g., between patients, admissions, and disorders).
+- 
+<img src="./README_resources/CEKG_16.jpeg" alt="Alt text" width="5000" height="900"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Modifying the Event Nodes
+- Creating Nodes for Reified Entities
+- Linking the Entity Nodes Together with a Relationship Named 'REL'
+- Linking the Entity Nodes to the Reified Entity Nodes with a Relationship Named 'REL'
+- Linking the Event Nodes to the Reified Entity Nodes with a Relationship Named 'CORR'
+- Creating the Directly Follows Relationship, 'DF,' Between Events
+- Removing the Polluted Directly Follows Relationships for Reified Entities
+- Removing the Wrong Directly Follows Relationships for Reified Entities
+- Removing the Reversed Directly Follows Relationships for Reified Entities
+- Removing the Polluted CORR Relationships for Reified Entities
+- Restoring CORR Relationships Wrongly Deleted in the Previous Step
+- Removing Reified Entities and Their REL Relationships Where No DF Relationship Exists Based on Those Reified Entities
+- Creating Directly Follows by Aggregating Different IDs of Each Entity (DF_C Absolute)
+- Creating Directly Follows by Aggregating Different IDs of Each Entity Origin Based on Another Entity Origin (DF_C Relative)
+- Creating Directly Follows by Aggregating Different Entity Origins (DF_C All)
+- Creating Directly Follows Relationship Between Each Entity (DF_E One)
+- Creating Directly Follows Relationship Between Different Origin Entities (DF_E Two)
+- Creating the Directly Follows Relationship Based on Activity Properties, 'DF,' Between Events
+- Creating Directly Follows Based on Activity Properties by Aggregating Different IDs of Each Entity (DF_C Absolute)
+- Creating Directly Follows Based on Activity Properties by Aggregating Different IDs of Each Entity Origin Based on Another Entity Origin (DF_C Relative)
+- Creating Directly Follows Based on Activity Properties by Aggregating Different Entity Origins (DF_C All)
+
+## Discovering Care Pathways from the Clinical Event Knowledge Graph
+
+Finally, by querying the Clinical Event Knowledge Graph, the care pathways are discovered.
+
+<img src="./README_resources/CEKG_17.jpeg" alt="Alt text" width="5000" height="900"/>
