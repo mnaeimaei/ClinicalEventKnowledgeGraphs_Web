@@ -460,7 +460,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step10.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/08_step10.png" alt="Alt text" width="200" height="300"/>
 
 - **ICD Code:** `icd_code`
 - **SNOMED CT ID:** `SCT_ID`
