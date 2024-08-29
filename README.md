@@ -30,9 +30,9 @@ On the next page, you need to select the type of care pathway you want to create
 
 ## Step1) Select the type of care pathway you want to create.
 
-<img src="./README_resources/04_step1.png" alt="Alt text" width="500" height="300"/>
+<img src="./README_resources/04_step1.png" alt="Alt text" width="500" height="200"/>
 
-<img src="./README_resources/04_step1_chart.jpg" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step1_chart.jpg" alt="Alt text" width="800" height="600"/>
 
 
 
