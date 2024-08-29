@@ -709,7 +709,7 @@ By clicking the “Run” button, the clinical event knowledge graph will be ful
 - **If we select option 4:** The DF relationship is created between activity nodes separately for each entity while considering the entity_ID (e.g., for Patient 1, activity a1 directly follows a2 thirty times; for Patient 2, twenty times).
 - **If we select option 5:** The DF relationship is created between activity nodes for one entity’s different IDs with respect to another entity’s non-reified IDs (e.g., for Patient 1, activity a1 directly follows a2 twenty-six times for Disorder 1).
 - **If we select option 6:** The DF relationship is created between the entities (e.g., between patients, admissions, and disorders).
-- 
+
 <img src="./README_resources/CEKG_16.jpeg" alt="Alt text" width="5000" height="900"/>
 
 The queries executed step by step are as follows:
