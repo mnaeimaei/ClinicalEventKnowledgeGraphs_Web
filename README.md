@@ -637,7 +637,7 @@ The queries executed step by step are as follows:
 
 By clicking the “Run” button, the Disorder nodes in the Entities Attributes graph are connected to the ICD nodes using the data from the DK3 sheet in the Excel file.
 
-<img src="./README_resources/CEKG_11.jpeg" alt="Alt text" width="100" height="1300"/>
+<img src="./README_resources/CEKG_11.jpeg" alt="Alt text" width="1000" height="1300"/>
 
 The queries executed step by step are as follows:
 
