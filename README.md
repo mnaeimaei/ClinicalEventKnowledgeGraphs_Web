@@ -351,3 +351,19 @@ On this page, you are first asked to select how many entities you have in your e
 - **Entity 1 ID column:** `Entity1_ID`
 - **Entity 2 Origin column:** `Entity2_Origin`
 - **Entity 2 ID column:** `Entity2_ID`
+
+
+
+## Entities Attributes Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step2.png" alt="Alt text" width="600" height="600"/>
+
+
+- **Entities Attributes Origin Column:** `Origin`
+- **Entities Attributes ID Column:** `ID`
+- **Entities Attributes Name Column:** `Name`
+- **Entities Attributes Value Column:** `Value`
+- **Entities Attributes Category Column:** `Category`
+
