@@ -483,7 +483,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step12.png" alt="Alt text" width="400" height="300"/>
+<img src="./README_resources/08_step12.png" alt="Alt text" width="500" height="300"/>
 
 - **Activity:** `Activity`
 - **Activity Synonym:** `Activity_Synonym`
