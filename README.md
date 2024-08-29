@@ -57,7 +57,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 ### If you select the sixth option from Step 1, you will have 2 options to decide whether you prefer to show only one of the following: Admission Disorders, Admission Treated Disorders, Admission Not Treated Disorders, or Admission New Disorders, or to display all of them together.
 
-<img src="./README_resources/04_step2c.png" alt="Alt text" width="400" height="200"/>
+<img src="./README_resources/04_step2c.png" alt="Alt text" width="400" height="300"/>
 
 <img src="./README_resources/04_step2_char3.jpg" alt="Alt text" width="900" height="600"/>
 
