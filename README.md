@@ -501,3 +501,16 @@ On this page, you are asked to select the columns related to each concept.
 - **SNOMED CT ID:** `SCT_ID`
 - **SNOMED CT Code:** `SCT_Code`
 
+
+
+## The Relationship between Events and Disorders Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step14.png" alt="Alt text" width="200" height="300"/>
+
+- **Activity Instance ID:** `Activity_Instance_ID`
+- **Disorder Entity ID:** `Disorders_ID`
+
+
+
