@@ -367,3 +367,16 @@ On this page, you are asked to select the columns related to each concept.
 - **Entities Attributes Value Column:** `Value`
 - **Entities Attributes Category Column:** `Category`
 
+
+
+## Entities Attributes Relationship Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step3.png" alt="Alt text" width="400" height="600"/>
+
+
+- **The First Entity Origin or the First Entity's Attribute Origin:** `Origin1`
+- **The First Entity ID or the First Entity's Attribute ID:** `ID1`
+- **The Second Entity Origin or the Second Entity's Attribute Origin:** `Origin2`
+- **The Second Entity ID or the Second Entity's Attribute ID:** `ID2`
