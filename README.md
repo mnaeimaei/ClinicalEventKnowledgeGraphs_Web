@@ -88,13 +88,13 @@ On the next page, you need to select the type of care pathway you want to create
 
 <img src="./README_resources/04_step4a.png" alt="Alt text" width="400" height="200"/>
 
-<img src="./README_resources/04_step4_char.jpg" alt="Alt text" width="600" height="400"/>
+<img src="./README_resources/04_step4_char.jpg" alt="Alt text" width="700" height="400"/>
 
 
 
 ### If you select the sixth option from Step 1, you will have 1 option for the activity label to be included in the care pathway.
 
-<img src="./README_resources/04_step4b.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step4b.png" alt="Alt text" width="400" height="200"/>
 
 
 # 6-Uploading the Dataset
