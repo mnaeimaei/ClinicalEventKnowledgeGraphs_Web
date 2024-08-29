@@ -99,7 +99,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 # 6-Uploading the Dataset
 
-<img src="./README_resources/06_step6.png" alt="Alt text" width="400" height="300"/>
+<img src="./README_resources/06_step6.png" alt="Alt text" width="400" height="200"/>
 
 
 
@@ -116,7 +116,7 @@ Here, we will discuss what each tab in the workbook represents.
 
 This tab consists of our event log, which can be either a single-entity or multi-entity event log. Entities represent distinct existences. Sometimes, the terms “case notion,” “case,” “object,” and “dimensional” are used interchangeably. The term "multi-entity event log" is sometimes considered equivalent to “object-centric event log” or “multi-dimensional event log.” In the multi-entity event log definition, each entity is defined with its origin and IDs. The tab contains several columns:
 
-<img src="./README_resources/06_step61.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step61.png" alt="Alt text" width="700" height="200"/>
 
 
 - **Event_ID:** Contains the ID of each event.
