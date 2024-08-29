@@ -533,3 +533,26 @@ The queries executed step by step are as follows:
 
 
 
+## Creating Relationships Between Entities and Entities Attributes
+
+By clicking the “Run” button, the Entities Attributes graph is created by establishing relationships between the entities attributes nodes, using the data from the Entities Attributes sheet in the Excel file.
+
+<img src="./README_resources/CEKG_03.jpeg" alt="Alt text" width="600" height="950"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the database except for the previously created ones
+- Clearing the constraints except for the previously created ones
+- Creating the relationship between different entities attributes named 'INCLUDED'
+- Clearing the database except for the previously created ones
+- Clearing the constraints except for the previously created ones
+- Linking the admission treated disorders nodes to the disorders nodes with a relationship named 'INCLUDED'
+- Linking the admission untreated disorders nodes to the disorders nodes with a relationship named 'INCLUDED'
+- Linking the admission new disorders nodes to the disorders nodes with a relationship named 'INCLUDED'
+- Adding a property to the 'Multimorbidity' node to store the disorders named 'Value'
+- Adding a property to the 'Admission Treated Disorders' node to store the disorders named 'Value'
+- Adding a property to the 'Admission Untreated Disorders' node to store the disorders named 'Value'
+- Adding a property to the 'Admission New Disorders' node to store the disorders named 'Value'
+
+
+
