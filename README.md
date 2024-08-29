@@ -227,7 +227,7 @@ This sheet shows the relationships between SNOMED CT concepts.
 
 ## DK3
 
-<img src="./README_resources/06_step69.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step69.png" alt="Alt text" width="300" height="300"/>
 
 This sheet shows the constrained node mappings derived from the MIMIC-IV dataset, which relate each Disorder_ID (an attribute of multimorbidity) to each ICD code.
 
@@ -237,7 +237,7 @@ This sheet shows the constrained node mappings derived from the MIMIC-IV dataset
 ## DK4
 
 This sheet shows the constrained node mappings derived from "OHDSI Athena" for relating ICD codes to SNOMED CT.
-<img src="./README_resources/06_step70.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step70.png" alt="Alt text" width="300" height="300"/>
 
 
 - **ICD_Code:** This column contains the ICD codes.
