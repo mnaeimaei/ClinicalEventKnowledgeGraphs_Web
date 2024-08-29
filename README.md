@@ -388,7 +388,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step4.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/08_step4.png" alt="Alt text" width="700" height="600"/>
 
 - **Activity Attributes ID:** `Activity_Attributes_ID`
 - **Activity:** `Activity`
@@ -402,6 +402,6 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step5.png" alt="Alt text" width="300" height="400"/>
+<img src="./README_resources/08_step5.png" alt="Alt text" width="200" height="300"/>
 
 - **Activity Domains:** `Activity_Domain`
