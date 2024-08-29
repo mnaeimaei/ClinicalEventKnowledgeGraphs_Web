@@ -173,7 +173,7 @@ This Excel sheet shows the relationship between entities and their attributes.
 
 This sheet of the dataset shows the activity attributes.
 
-<img src="./README_resources/06_step64.png" alt="Alt text" width="700" height="600"/>
+<img src="./README_resources/06_step64.png" alt="Alt text" width="900" height="600"/>
 
 
 
@@ -187,7 +187,7 @@ This sheet of the dataset shows the activity attributes.
 
 This sheet contains the domain of activities, which consists of only one column.
 
-<img src="./README_resources/06_step65.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step65.png" alt="Alt text" width="200" height="300"/>
 
 ## ICD
 
