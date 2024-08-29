@@ -306,3 +306,27 @@ Follow these steps to set up the tools required for this application:
 6. Download and continue with the setup process.
 7. Save the Connection URI for future use.
 
+
+# 8-Selection the Excel Sheet
+On this page, based on our selections for the care pathways option, we are asked to determine which sheet of our Excel file corresponds to which concepts. Additionally, a preview of our test Excel sheet is displayed on the page.
+<img src="./README_resources/08.png" alt="Alt text" width="600" height="600"/>
+
+
+For the Test Dataset that was explained, the sheet sections are structured as follows:
+
+- **Event Log:** `C_EventLog`
+- **Entities Attributes:** `D_EntitiesAttributes`
+- **The Relationship between Entries and their Attributes:** `D_EntitiesAttributeRel`
+- **Activities Attributes:** `E_ActivityAttributes`
+- **Activities Domain:** `F_ActivitiesDomain`
+- **ICD:** `H_ICD`
+- **SNOMED CT NODE:** `I_SCT_Node`
+- **SNOMED CT Relationship:** `I_SCT_REL`
+- **The Relationship between Disorder and ICD Code:** `L_DK3`
+- **The Relationship between ICD Code and SNOMED CT ID:** `M_DK4`
+- **The Relationship between Event Activities and SNOMED CT ID:** `N_DK5`
+- **The Relationship between Event Activities and Activities Domain:** `O_DK6_1`
+- **The Relationship between Activities Domain and SNOMED CT ID:** `O_DK6_2`
+- **The Relationship between Events and Disorders:** `P_DK7`
+
+On the subsequent pages, you will also be asked to select which columns of each sheet are related to specific concepts.
