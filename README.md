@@ -450,7 +450,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step9.png" alt="Alt text" width="300" height="300"/>
+<img src="./README_resources/08_step9.png" alt="Alt text" width="200" height="300"/>
 
 - **Disorder ID:** `Disorders_ID`
 - **ICD Code:** `icd_code`
