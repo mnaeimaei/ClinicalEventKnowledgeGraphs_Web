@@ -465,3 +465,15 @@ On this page, you are asked to select the columns related to each concept.
 - **ICD Code:** `icd_code`
 - **SNOMED CT ID:** `SCT_ID`
 
+
+
+## The Relationship between Event Activities and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step11.png" alt="Alt text" width="200" height="300"/>
+
+- **Activity:** `Activity`
+- **Activity Synonym:** `Activity_Synonym`
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
