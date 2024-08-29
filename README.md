@@ -662,7 +662,7 @@ The queries executed step by step are as follows:
 
 By clicking the “Run” button, the Activities nodes in the Event Log graph are connected to the SNOMED-CT nodes using the data from the DK5 sheet in the Excel file.
 
-<img src="./README_resources/CEKG_13.jpeg" alt="Alt text" width="1400" height="1300"/>
+<img src="./README_resources/CEKG_13.jpeg" alt="Alt text" width="1800" height="1300"/>
 
 The queries executed step by step are as follows:
 
