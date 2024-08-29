@@ -159,7 +159,7 @@ For example, age, gender, and admission are attributes of the Patient entity, as
 
 This Excel sheet shows the relationship between entities and their attributes.
 
-<img src="./README_resources/06_step63.png" alt="Alt text" width="900" height="500"/>
+<img src="./README_resources/06_step63.png" alt="Alt text" width="900" height="300"/>
 
 
 
