@@ -281,7 +281,7 @@ This sheet shows the constrained node mappings derived manually by searching to 
 
 This sheet shows the constrained node mappings derived from training a supervised machine learning model to relate activity instance identifiers to disorder identifiers. By using this sheet, we can include another entity (disorder) in addition to the Patient and Admission entities in our analysis.
 
-<img src="./README_resources/06_step74.png" alt="Alt text" width="400" height="100"/>
+<img src="./README_resources/06_step74.png" alt="Alt text" width="300" height="300"/>
 
 
 
