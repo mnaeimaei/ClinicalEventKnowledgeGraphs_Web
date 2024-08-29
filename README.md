@@ -670,3 +670,17 @@ The queries executed step by step are as follows:
 - Linking the Activity Nodes to the SNOMED-CT Nodes with a Relationship Named 'MAPPED_TO'
 - Linking the Activity Properties Nodes to the SNOMED-CT Nodes with a Relationship Named 'MAPPED_TO'
 
+
+## Connecting Activities to Domains and Connecting Domains to SNOMED-CT Codes
+
+By clicking the “Run” button, the Activity Domains in the Event Log graph are connected to the SNOMED CT nodes using the data from the DK6_1 and DK6_2 sheets in the Excel file.
+
+<img src="./README_resources/CEKG_14.jpeg" alt="Alt text" width="5000" height="900"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Linking the Domain Nodes to the SNOMED-CT Nodes with a Relationship Named 'TIED'
+- Queries for Linking the Activity Nodes to the Domain or SNOMED-CT Nodes with a Relationship Named 'TYPE_OF'
+- Queries for Linking the Activity Properties Nodes to the Domain or SNOMED-CT Nodes with a Relationship Named 'TYPE_OF'
+
