@@ -578,7 +578,7 @@ The queries executed step by step are as follows:
 
 By clicking the “Run” button, a node is created for each row in the Activity Domain sheet of the Excel file.
 
-<img src="./README_resources/CEKG_05.jpeg" alt="Alt text" width="400" height="200"/>
+<img src="./README_resources/CEKG_05.jpeg" alt="Alt text" width="450" height="200"/>
 
 The queries executed step by step are as follows:
 
