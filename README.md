@@ -193,7 +193,7 @@ This sheet contains the domain of activities, which consists of only one column.
 
 This sheet of our dataset contains an excerpt of our ICD codes.
 
-<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="250"/>
+<img src="./README_resources/06_step66.png" alt="Alt text" width="700" height="250"/>
 
 - **ICD_Origin:** This column contains values for all ICD entries. It is an auxiliary column used solely for data analysis.
 - **ICD_Code:** This column shows the ICD codes.
@@ -204,7 +204,7 @@ This sheet of our dataset contains an excerpt of our ICD codes.
 
 This sheet of our dataset contains an excerpt of our SNOMED CT concept codes.
 
-<img src="./README_resources/06_step67.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step67.png" alt="Alt text" width="800" height="600"/>
 
 - **SCT_ID:** This column contains the SNOMED CT ID.
 - **SCT_Code:** This column is an auxiliary column used in this sheet, not related to SNOMED CT terminology.
