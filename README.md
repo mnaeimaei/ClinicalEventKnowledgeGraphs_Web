@@ -454,3 +454,14 @@ On this page, you are asked to select the columns related to each concept.
 
 - **Disorder ID:** `Disorders_ID`
 - **ICD Code:** `icd_code`
+
+
+## The Relationship between ICD Code and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step10.png" alt="Alt text" width="600" height="600"/>
+
+- **ICD Code:** `icd_code`
+- **SNOMED CT ID:** `SCT_ID`
+
