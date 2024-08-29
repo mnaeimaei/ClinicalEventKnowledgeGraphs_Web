@@ -173,7 +173,7 @@ This Excel sheet shows the relationship between entities and their attributes.
 
 This sheet of the dataset shows the activity attributes.
 
-<img src="./README_resources/06_step64.png" alt="Alt text" width="900" height="600"/>
+<img src="./README_resources/06_step64.png" alt="Alt text" width="900" height="500"/>
 
 
 
@@ -187,13 +187,13 @@ This sheet of the dataset shows the activity attributes.
 
 This sheet contains the domain of activities, which consists of only one column.
 
-<img src="./README_resources/06_step65.png" alt="Alt text" width="200" height="300"/>
+<img src="./README_resources/06_step65.png" alt="Alt text" width="200" height="200"/>
 
 ## ICD
 
 This sheet of our dataset contains an excerpt of our ICD codes.
 
-<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="300"/>
+<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="250"/>
 
 - **ICD_Origin:** This column contains values for all ICD entries. It is an auxiliary column used solely for data analysis.
 - **ICD_Code:** This column shows the ICD codes.
