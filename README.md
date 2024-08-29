@@ -86,9 +86,9 @@ On the next page, you need to select the type of care pathway you want to create
 
 ### If you select the first, second, third, fourth, or fifth option from Step 1, you will have 3 options for the activity labels to be included in the care pathways
 
-<img src="./README_resources/04_step4a.png" alt="Alt text" width="300" height="200"/>
+<img src="./README_resources/04_step4a.png" alt="Alt text" width="400" height="200"/>
 
-<img src="./README_resources/04_step4_char.jpg" alt="Alt text" width="400" height="200"/>
+<img src="./README_resources/04_step4_char.jpg" alt="Alt text" width="600" height="400"/>
 
 
 
