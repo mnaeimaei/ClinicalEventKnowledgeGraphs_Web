@@ -593,7 +593,7 @@ The queries executed step by step are as follows:
 
 By clicking the “Run” button, a node is created for each row in the ICD sheet of the Excel file.
 
-<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="400" height="1200"/>
+<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="400" height="1300"/>
 
 The queries executed step by step are as follows:
 
@@ -603,3 +603,15 @@ The queries executed step by step are as follows:
 - Creating Nodes for Each ICD Instance
 
 
+## Creating Nodes for SNOMED-CT Concepts
+
+By clicking the “Run” button, a node is created for each row in the SNOMED CT Node sheet of the Excel file.
+
+<img src="./README_resources/CEKG_07.jpeg" alt="Alt text" width="800" height="1300"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Clearing the Constraints Except the Previously Created Ones
+- Creating the Constraints for the SNOMED-CT's LPG
+- Creating Nodes for Each SNOMED-CT Instance
