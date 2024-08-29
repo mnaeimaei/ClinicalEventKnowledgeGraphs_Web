@@ -556,3 +556,20 @@ The queries executed step by step are as follows:
 
 
 
+
+
+## Creating a Labeled Property Graph for Activity Attributes
+
+By clicking the “Run” button, activity attributes are added to the Event Log graph. These activity attributes are sourced from the Activities Attributes sheet in the Excel file.
+
+<img src="./README_resources/CEKG_04.jpeg" alt="Alt text" width="700" height="1000"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the database except for the previously created ones
+- Clearing the constraints except for the previously created ones
+- Creating the constraints for the Activities Attributes’ LPG
+- Creating nodes for each feature instance (Activity Attributes Labels and Values)
+- Linking the Activity Attributes nodes to the feature nodes with a relationship named 'ASSIGN'
+
+
