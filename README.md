@@ -488,3 +488,16 @@ On this page, you are asked to select the columns related to each concept.
 - **Activity:** `Activity`
 - **Activity Synonym:** `Activity_Synonym`
 - **Activity Domain:** `Activity`
+
+
+
+## The Relationship between Activities Domain and SNOMED CT ID Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step13.png" alt="Alt text" width="600" height="300"/>
+
+- **Activity Domain:** `Activity_Domain`
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
+
