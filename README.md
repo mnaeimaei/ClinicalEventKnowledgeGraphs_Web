@@ -373,7 +373,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step3.png" alt="Alt text" width="400" height="600"/>
+<img src="./README_resources/08_step3.png" alt="Alt text" width="400" height="800"/>
 
 
 - **The First Entity Origin or the First Entity's Attribute Origin:** `Origin1`
