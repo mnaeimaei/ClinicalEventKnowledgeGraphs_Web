@@ -334,6 +334,7 @@ On the subsequent pages, you will also be asked to select which columns of each 
 ## Event Log Sheet Column Selection
 
 On this page, you are first asked to select how many entities you have in your event log and then to select the columns related to each concept.
+
 <img src="./README_resources/08_step1.png" alt="Alt text" width="600" height="600"/>
 
 
@@ -365,6 +366,7 @@ On this page, you are asked to select the columns related to each concept.
 ## Entities Attributes Relationship Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step3.png" alt="Alt text" width="600" height="600"/>
 
 
@@ -376,6 +378,7 @@ On this page, you are asked to select the columns related to each concept.
 ## Activities Attributes Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step4.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Attributes ID:** `Activity_Attributes_ID`
@@ -387,6 +390,7 @@ On this page, you are asked to select the columns related to each concept.
 ## Activities Domain Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step5.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Domains:** `Activity_Domain`
@@ -394,6 +398,7 @@ On this page, you are asked to select the columns related to each concept.
 ## ICD Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step6.png" alt="Alt text" width="600" height="600"/>
 
 - **ICD Code Origin:** `icd_Origin`
@@ -404,6 +409,7 @@ On this page, you are asked to select the columns related to each concept.
 ## SNOMED CT NODE Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step7.png" alt="Alt text" width="600" height="600"/>
 
 - **SNOMED CT ID:** `SCT_ID`
@@ -417,6 +423,7 @@ On this page, you are asked to select the columns related to each concept.
 ## SNOMED CT Relationship Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step8.png" alt="Alt text" width="600" height="600"/>
 
 - **First SNOMED CT ID:** `sct_id_1`
@@ -427,6 +434,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Disorder and ICD Code Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step9.png" alt="Alt text" width="600" height="600"/>
 
 - **Disorder ID:** `Disorders_ID`
@@ -435,6 +443,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between ICD Code and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step10.png" alt="Alt text" width="600" height="600"/>
 
 - **ICD Code:** `icd_code`
@@ -443,6 +452,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Event Activities and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step11.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity:** `Activity`
@@ -453,6 +463,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Event Activities and Activities Domain Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step12.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity:** `Activity`
@@ -462,6 +473,7 @@ On this page, you are asked to select the columns related to each concept.
 ## The Relationship between Activities Domain and SNOMED CT ID Sheet Column Selection
 
 On this page, you are asked to select the columns related to each concept.
+
 <img src="./README_resources/08_step13.png" alt="Alt text" width="600" height="600"/>
 
 - **Activity Domain:** `Activity_Domain`
@@ -489,7 +501,7 @@ For building the clinical event knowledge graph, different steps—one for each 
 
 By clicking the “Run” button, the Event Log sheet is converted into an Event Log graph.
 
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="500" height="600"/>
 
 The queries executed step by step are as follows:
 
