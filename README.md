@@ -630,3 +630,17 @@ The queries executed step by step are as follows:
 - Clearing the Database Except the Previously Created Ones
 - Linking the SNOMED-CT Concepts Nodes Together with 'ANCESTOR_OF'
 - Modifying the SNOMED-CT Concepts Nodes
+
+
+
+## Connecting Diagnosed Disorders to ICD Codes
+
+By clicking the “Run” button, the Disorder nodes in the Entities Attributes graph are connected to the ICD nodes using the data from the DK3 sheet in the Excel file.
+
+<img src="./README_resources/CEKG_11.jpeg" alt="Alt text" width="100" height="1300"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Linking the Disorder Nodes to the ICD Nodes with a Relationship Named 'LINKED_TO'
+
