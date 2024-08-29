@@ -14,4 +14,4 @@ Click on “START CEKG” to begin using the app.
 The username and password for the demo program committee are in the Appendix of the paper.
 
 
-<img src="./README_resources/02_Login.png" alt="Alt text" width="2000" height="900"/>
+<img src="./README_resources/02_Login.png" alt="Alt text" width="2000" height="800"/>
