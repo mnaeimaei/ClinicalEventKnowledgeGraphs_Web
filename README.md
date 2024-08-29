@@ -32,7 +32,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 <img src="./README_resources/04_step1.png" alt="Alt text" width="500" height="200"/>
 
-<img src="./README_resources/04_step1_chart.jpg" alt="Alt text" width="800" height="600"/>
+<img src="./README_resources/04_step1_chart.jpg" alt="Alt text" width="900" height="600"/>
 
 
 
@@ -40,20 +40,26 @@ On the next page, you need to select the type of care pathway you want to create
 ## Step2) Other Configuration of the care pathways
 
 ### If you select the first or second option from Step 1, you will have 8 options to choose from regarding the details about activities you want to include in the care pathways.
-<img src="./README_resources/04_step2a.png" alt="Alt text" width="600" height="600"/>
-<img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/04_step2a.png" alt="Alt text" width="500" height="200"/>
+
+<img src="./README_resources/04_step2_char1.jpg" alt="Alt text" width="900" height="600"/>
 
 
 
 ### If you select the third, fourth, or fifth option from Step 1, you will have 12 options to choose from regarding the details about activities you want to include in the care pathways.
-<img src="./README_resources/04_step2b.png" alt="Alt text" width="600" height="600"/>
-<img src="./README_resources/04_step2_char2.jpg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/04_step2b.png" alt="Alt text" width="500" height="200"/>
+
+<img src="./README_resources/04_step2_char2.jpg" alt="Alt text" width="900" height="600"/>
 
 
 
 ### If you select the sixth option from Step 1, you will have 2 options to decide whether you prefer to show only one of the following: Admission Disorders, Admission Treated Disorders, Admission Not Treated Disorders, or Admission New Disorders, or to display all of them together.
-<img src="./README_resources/04_step2c.png" alt="Alt text" width="600" height="600"/>
-<img src="./README_resources/04_step2_char3.jpg" alt="Alt text" width="600" height="600"/>
+
+<img src="./README_resources/04_step2c.png" alt="Alt text" width="500" height="200"/>
+
+<img src="./README_resources/04_step2_char3.jpg" alt="Alt text" width="900" height="600"/>
 
 
 
