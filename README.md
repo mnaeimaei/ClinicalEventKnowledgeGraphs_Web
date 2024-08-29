@@ -75,7 +75,8 @@ On the next page, you need to select the type of care pathway you want to create
 
 ### If you select the sixth option from Step 1, you will have 1 option for selecting the entities to be included in the care pathways.
 
-<img src="./README_resources/04_step3b.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/04_step3b.png" alt="Alt text" width="300" height="100"/>
+
 <img src="./README_resources/04_step3_char2.jpg" alt="Alt text" width="600" height="600"/>
 
 
