@@ -518,6 +518,18 @@ The queries executed step by step are as follows:
 - Linking the Event Nodes to the Activity Nodes with an 'OBSERVED' Relationship
 - Linking the Event Nodes to the Activity Properties Nodes with a 'MONITORED' Relationship
 
+## Creating a Labeled Property Graph for Entities Attributes
+
+By clicking the “Run” button, a node will be created for each row in the Entities Attributes sheet of the Excel file:
+
+<img src="./README_resources/CEKG_02.jpeg" alt="Alt text" width="600" height="900"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except for the Previously Created Ones
+- Clearing the Constraints Except for the Previously Created Ones
+- Creating the Constraints for the Entities Attributes' LPG
+- Creating Nodes for Each of the Entities Attributes' Instances
 
 
 
