@@ -18,4 +18,4 @@ The username and password for the demo program committee are in the Appendix of 
 # 4-The Profile Page
 On the next page, you can see the directory and output of the files you have created using the app. These files will be shown if you have previously used the app. Whether it's your first time using the app or you've used it before, you can click on "START CEKG" to begin building a new CEKG with the app.
 
-<img src="./README_resources/03_profile.png" alt="Alt text" width="600" height="400"/>
+<img src="./README_resources/03_profile.png" alt="Alt text" width="2000" height="700"/>
