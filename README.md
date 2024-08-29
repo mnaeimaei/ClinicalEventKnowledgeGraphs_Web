@@ -380,3 +380,18 @@ On this page, you are asked to select the columns related to each concept.
 - **The First Entity ID or the First Entity's Attribute ID:** `ID1`
 - **The Second Entity Origin or the Second Entity's Attribute Origin:** `Origin2`
 - **The Second Entity ID or the Second Entity's Attribute ID:** `ID2`
+
+
+
+
+## Activities Attributes Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step4.png" alt="Alt text" width="600" height="600"/>
+
+- **Activity Attributes ID:** `Activity_Attributes_ID`
+- **Activity:** `Activity`
+- **Activity Synonym:** `Activity_Synonym`
+- **Activity Attributes:** `Attribute`
+- **Activity Attributes Value:** `Activity_Attributes_ID`
