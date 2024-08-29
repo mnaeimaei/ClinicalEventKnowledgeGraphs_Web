@@ -247,7 +247,7 @@ This sheet shows the constrained node mappings derived from "OHDSI Athena" for r
 
 This sheet shows the constrained node mappings derived manually by searching to relate activities to SNOMED CT concepts.
 
-<img src="./README_resources/06_step71.png" alt="Alt text" width="600" height="300"/>
+<img src="./README_resources/06_step71.png" alt="Alt text" width="400" height="100"/>
 
 
 - **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
@@ -259,7 +259,7 @@ This sheet shows the constrained node mappings derived manually by searching to 
 
 This sheet shows the constrained node mappings derived manually by searching to relate activities to domains.
 
-<img src="./README_resources/06_step72.png" alt="Alt text" width="600" height="300"/>
+<img src="./README_resources/06_step72.png" alt="Alt text" width="400" height="100"/>
 
 
 - **Activity:** This column shows the activity, corresponding to the "Activity" column in the event log sheet.
