@@ -425,7 +425,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step7.png" alt="Alt text" width="2000" height="600"/>
+<img src="./README_resources/08_step7.png" alt="Alt text" width="2000" height="500"/>
 
 - **SNOMED CT ID:** `SCT_ID`
 - **SNOMED CT Code:** `SCT_Code`
