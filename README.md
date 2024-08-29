@@ -9,7 +9,7 @@ First, go to [CEKG_Web](https://cekg-db1cc0d27386.herokuapp.com/) to see the fir
 Click on “START CEKG” to begin using the app.
 
 
-<img src="./README_resources/01_Home.png" alt="Alt text" width="600" height="400"/>
+<img src="./README_resources/01_Home.png" alt="Alt text" width="600" height="300"/>
 
 # 3-Login Page
 The username and password for the demo program committee are in the Appendix of the paper.
@@ -99,7 +99,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 # 6-Uploading the Dataset
 
-<img src="./README_resources/06_step6.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step6.png" alt="Alt text" width="400" height="300"/>
 
 
 
