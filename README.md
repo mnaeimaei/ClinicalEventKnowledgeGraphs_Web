@@ -288,3 +288,22 @@ This sheet shows the constrained node mappings derived from training a supervise
 - **Activity_Instance_ID:** This column contains the activity instance identifiers. This foreign key can be related to the event log sheet.
 - **Disorders_ID:** This column contains the identifiers of disorder attributes.
 
+
+# 7-Neo4j Aura credentials
+On this page, you are asked to enter your Neo4j Aura credentials. By inputting your Neo4j Aura credentials, we do not gain access to your Neo4j account; we simply send a query to it. Additionally, the reason we don’t provide a test account is that you wouldn’t be able to view the results in Neo4j Aura.
+
+<img src="./README_resources/07.png" alt="Alt text" width="300" height="300"/>
+
+
+Follow these steps to set up the tools required for this application:
+
+1. Visit [Neo4j Aura](https://neo4j.com/cloud/platform/aura-graph-database/).
+2. Click on **"Start Free."**
+3. Sign up or log in.
+4. Click on **"New Instance"** and select **"Try for Free."**
+5. Save your username and password for future use.
+6. Download and continue with the setup process.
+7. Save the Connection URI for future use.
+
+
+
