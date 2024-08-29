@@ -593,7 +593,7 @@ The queries executed step by step are as follows:
 
 By clicking the “Run” button, a node is created for each row in the ICD sheet of the Excel file.
 
-<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="400" height="800"/>
 
 The queries executed step by step are as follows:
 
