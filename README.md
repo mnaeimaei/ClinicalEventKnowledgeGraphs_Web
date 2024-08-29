@@ -501,7 +501,7 @@ For building the clinical event knowledge graph, different steps—one for each 
 
 By clicking the “Run” button, the Event Log sheet is converted into an Event Log graph.
 
-<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="800"/>
+<img src="./README_resources/CEKG_01.jpeg" alt="Alt text" width="600" height="900"/>
 
 The queries executed step by step are as follows:
 
