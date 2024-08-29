@@ -193,7 +193,7 @@ This sheet contains the domain of activities, which consists of only one column.
 
 This sheet of our dataset contains an excerpt of our ICD codes.
 
-<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step66.png" alt="Alt text" width="600" height="300"/>
 
 - **ICD_Origin:** This column contains values for all ICD entries. It is an auxiliary column used solely for data analysis.
 - **ICD_Code:** This column shows the ICD codes.
