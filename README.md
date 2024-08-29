@@ -24,7 +24,7 @@ On the next page, you can see the directory and output of the files you have cre
 
 # 5-The Care pathways options
 On the next page, you need to select the type of care pathway you want to create.
-<img src="./README_resources/04_care.png" alt="Alt text" width="500" height="200"/>
+<img src="./README_resources/04_care.png" alt="Alt text" width="400" height="100"/>
 
 
 ## Step1) Select the type of care pathway you want to create.
