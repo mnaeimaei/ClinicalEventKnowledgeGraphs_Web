@@ -395,3 +395,13 @@ On this page, you are asked to select the columns related to each concept.
 - **Activity Synonym:** `Activity_Synonym`
 - **Activity Attributes:** `Attribute`
 - **Activity Attributes Value:** `Activity_Attributes_ID`
+
+
+
+## Activities Domain Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step5.png" alt="Alt text" width="600" height="600"/>
+
+- **Activity Domains:** `Activity_Domain`
