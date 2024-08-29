@@ -644,3 +644,17 @@ The queries executed step by step are as follows:
 - Clearing the Database Except the Previously Created Ones
 - Linking the Disorder Nodes to the ICD Nodes with a Relationship Named 'LINKED_TO'
 
+
+
+## Connecting ICD Codes to SNOMED-CT ID
+
+By clicking the “Run” button, the ICD Code graph is connected to the SNOMED-CT nodes using the data from the DK4 sheet in the Excel file.
+
+<img src="./README_resources/CEKG_12.jpeg" alt="Alt text" width="1100" height="1300"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Linking the ICD Nodes to the SNOMED-CT Nodes with a Relationship Named 'CONNECTED_TO'
+
+
