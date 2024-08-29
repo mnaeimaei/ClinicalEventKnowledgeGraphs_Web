@@ -405,3 +405,16 @@ On this page, you are asked to select the columns related to each concept.
 <img src="./README_resources/08_step5.png" alt="Alt text" width="200" height="300"/>
 
 - **Activity Domains:** `Activity_Domain`
+
+
+
+## ICD Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step6.png" alt="Alt text" width="600" height="600"/>
+
+- **ICD Code Origin:** `icd_Origin`
+- **ICD Code:** `icd_code`
+- **ICD Code Version:** `icd_version`
+- **ICD Code Title:** `icd_code_title`
