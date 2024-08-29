@@ -330,3 +330,24 @@ For the Test Dataset that was explained, the sheet sections are structured as fo
 - **The Relationship between Events and Disorders:** `P_DK7`
 
 On the subsequent pages, you will also be asked to select which columns of each sheet are related to specific concepts.
+
+
+
+## Event Log Sheet Column Selection
+
+On this page, you are first asked to select how many entities you have in your event log and then to select the columns related to each concept.
+
+<img src="./README_resources/08_step1.png" alt="Alt text" width="1000" height="600"/>
+
+
+- **Number of Entities column:** 2
+- **Event ID column:** `Event_ID`
+- **Timestamp column:** `Timestamp`
+- **Activity column:** `Activity`
+- **Activity Synonym column:** `Activity_Synonym`
+- **Activity Attributes ID column:** `Activity_Attributes_ID`
+- **Activity Instance ID column:** `Activity_Instance_ID`
+- **Entity 1 Origin column:** `Entity1_Origin`
+- **Entity 1 ID column:** `Entity1_ID`
+- **Entity 2 Origin column:** `Entity2_Origin`
+- **Entity 2 ID column:** `Entity2_ID`
