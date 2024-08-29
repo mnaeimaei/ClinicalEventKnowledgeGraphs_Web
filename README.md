@@ -145,7 +145,7 @@ This Excel tab contains the attributes of our entities. Each entity can have sev
 
 For example, age, gender, and admission are attributes of the Patient entity, as each patient has an age, gender, and admission sequence. Additionally, multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity are attributes of the Admission entity. Similarly, each disorder is an attribute of multimorbidity, treated multimorbidity, untreated multimorbidity, and new multimorbidity.
 
-<img src="./README_resources/06_step62.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step62.png" alt="Alt text" width="700" height="600"/>
 
 
 
@@ -159,7 +159,7 @@ For example, age, gender, and admission are attributes of the Patient entity, as
 
 This Excel sheet shows the relationship between entities and their attributes.
 
-<img src="./README_resources/06_step63.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/06_step63.png" alt="Alt text" width="800" height="600"/>
 
 
 
