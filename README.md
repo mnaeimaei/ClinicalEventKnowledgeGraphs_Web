@@ -573,3 +573,18 @@ The queries executed step by step are as follows:
 - Linking the Activity Attributes nodes to the feature nodes with a relationship named 'ASSIGN'
 
 
+
+## Creating a Labeled Property Graph for Activities Domains
+
+By clicking the “Run” button, a node is created for each row in the Activity Domain sheet of the Excel file.
+
+<img src="./README_resources/CEKG_05.jpeg" alt="Alt text" width="300" height="100"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Clearing the Constraints Except the Previously Created Ones
+- Creating the Constraints for the Activities Domain's LPG
+- Creating Nodes for Each Activities Domain Instance
+
+
