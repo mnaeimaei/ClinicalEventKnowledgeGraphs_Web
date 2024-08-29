@@ -337,7 +337,7 @@ On the subsequent pages, you will also be asked to select which columns of each 
 
 On this page, you are first asked to select how many entities you have in your event log and then to select the columns related to each concept.
 
-<img src="./README_resources/08_step1.png" alt="Alt text" width="1000" height="600"/>
+<img src="./README_resources/08_step1.png" alt="Alt text" width="1000" height="500"/>
 
 
 - **Number of Entities column:** 2
