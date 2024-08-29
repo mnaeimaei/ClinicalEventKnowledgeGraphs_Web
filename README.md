@@ -588,3 +588,18 @@ The queries executed step by step are as follows:
 - Creating Nodes for Each Activities Domain Instance
 
 
+
+## Creating a Labeled Property Graph for ICD Codes
+
+By clicking the “Run” button, a node is created for each row in the ICD sheet of the Excel file.
+
+<img src="./README_resources/CEKG_06.jpeg" alt="Alt text" width="600" height="600"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Clearing the Constraints Except the Previously Created Ones
+- Creating the Constraints for the ICD's LPG
+- Creating Nodes for Each ICD Instance
+
+
