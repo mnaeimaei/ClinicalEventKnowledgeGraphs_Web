@@ -615,3 +615,18 @@ The queries executed step by step are as follows:
 - Clearing the Constraints Except the Previously Created Ones
 - Creating the Constraints for the SNOMED-CT's LPG
 - Creating Nodes for Each SNOMED-CT Instance
+
+
+
+
+## Creating Relationships Between Nodes of SNOMED-CT Concepts
+
+By clicking the “Run” button, the SNOMED-CT graph is created by establishing relationships between the SNOMED CT nodes, using the data from the SNOMED CT Relationship sheet in the Excel file.
+
+<img src="./README_resources/CEKG_08.jpeg" alt="Alt text" width="800" height="1300"/>
+
+The queries executed step by step are as follows:
+
+- Clearing the Database Except the Previously Created Ones
+- Linking the SNOMED-CT Concepts Nodes Together with 'ANCESTOR_OF'
+- Modifying the SNOMED-CT Concepts Nodes
