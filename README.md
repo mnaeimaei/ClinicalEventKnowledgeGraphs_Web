@@ -418,3 +418,21 @@ On this page, you are asked to select the columns related to each concept.
 - **ICD Code:** `icd_code`
 - **ICD Code Version:** `icd_version`
 - **ICD Code Title:** `icd_code_title`
+
+
+
+## SNOMED CT NODE Sheet Column Selection
+
+On this page, you are asked to select the columns related to each concept.
+
+<img src="./README_resources/08_step7.png" alt="Alt text" width="600" height="600"/>
+
+- **SNOMED CT ID:** `SCT_ID`
+- **SNOMED CT Code:** `SCT_Code`
+- **SNOMED CT Description A:** `SCT_DescriptionA_Type2`
+- **SNOMED CT Description B:** `SCT_DescriptionB`
+- **SNOMED CT Semantic Tags:** `SCT_Semantic_Tags`
+- **SNOMED CT Concept Type:** `SCT_Type`
+- **SNOMED CT Level:** `SCT_Level`
+
+## SNOMED CT Relationship Sheet Column Selection
