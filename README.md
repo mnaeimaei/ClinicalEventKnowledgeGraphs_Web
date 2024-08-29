@@ -412,7 +412,7 @@ On this page, you are asked to select the columns related to each concept.
 
 On this page, you are asked to select the columns related to each concept.
 
-<img src="./README_resources/08_step6.png" alt="Alt text" width="600" height="600"/>
+<img src="./README_resources/08_step6.png" alt="Alt text" width="600" height="400"/>
 
 - **ICD Code Origin:** `icd_Origin`
 - **ICD Code:** `icd_code`
