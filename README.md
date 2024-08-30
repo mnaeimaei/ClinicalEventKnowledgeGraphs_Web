@@ -104,7 +104,7 @@ On the next page, you need to select the type of care pathway you want to create
 
 
 Download the Test Dataset
-The test dataset is provided as an Excel file (.xlsx). You can download it from this link: [DataSet](./README_resources/01_Home.png)
+The test dataset is provided as an Excel file (.xlsx). You can download it from this link: [DataSet](./Dataset/Test_cekg.xlsx)
 
 About the Test Dataset
 The test dataset consists of several tabs within the Excel file. These tabs could also be individual CSV files, but to simplify the testing process, all the CSV files have been combined as tabs in a single Excel workbook. The names of the tabs can be customized as needed. These tabs are essential for creating the Clinical Event Knowledge Graph as presented in the paper [Clinical Event Knowledge Graphs: Enriching Healthcare Event Data with Entities and Clinical Concepts-Research Paper](https://link.springer.com/chapter/10.1007/978-3-031-56107-8_23)
